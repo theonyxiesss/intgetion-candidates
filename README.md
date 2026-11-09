@@ -58,3 +58,5 @@ Reads (never writes) `skills` (taxonomy) for skill names and `user_profiles` (us
 - `./server` — `createApp()` HTTP handler
 
 Depends on `@intgetion/kit` (v0.3.0) and `@intgetion/taxonomy` (v0.2.0, marker vocabulary) by git tag. Profile pages stay in the platform.
+
+`./db` — table definitions (Drizzle) for read-only use by other modules.

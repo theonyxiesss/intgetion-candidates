@@ -1,13 +1,14 @@
 {
   "name": "@intgetion/candidates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Candidate profiles for INTGETION JOB LIST: headline, titles, work hours, salary, skills, experience, preferences, completeness.",
   "license": "UNLICENSED",
   "type": "module",
   "exports": {
     ".": "./src/modules/candidates/service/index.ts",
     "./ports": "./src/ports.ts",
-    "./server": "./src/server/app.ts"
+    "./server": "./src/server/app.ts",
+    "./db": "./src/db/owned.ts"
   },
   "scripts": {
     "dev": "tsx watch src/server/main.ts",
